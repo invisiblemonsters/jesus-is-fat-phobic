@@ -3,7 +3,7 @@
 Vinyl bumper stickers, sold crypto-native (USDC / BTC / Lightning). Printed by a real
 print shop, shipped to your door. Pay with crypto — no card, no bank, no account.
 
-- **Storefront:** https://invisiblemonsters.github.io/jesus-fat-phobic/
+- **Storefront:** https://invisiblemonsters.github.io/jesus-is-fat-phobic/
 - **Size:** 7.5″ × 3.75″, matte vinyl, removable adhesive, weatherproof
 - **Price:** $49.99 / 10-pack, free US shipping
 

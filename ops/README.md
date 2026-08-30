@@ -1,7 +1,7 @@
 # Praise & Provoke — JESUS IS FAT PHOBIC bumper sticker ops
 
-**Storefront:** https://invisiblemonsters.github.io/jesus-fat-phobic/
-**Repo:** https://github.com/invisiblemonsters/jesus-fat-phobic
+**Storefront:** https://invisiblemonsters.github.io/jesus-is-fat-phobic/
+**Repo:** https://github.com/invisiblemonsters/jesus-is-fat-phobic
 **Project dir:** `C:\Users\power\projects\jesus-fat-phobic\`
 
 ## Product & pricing
