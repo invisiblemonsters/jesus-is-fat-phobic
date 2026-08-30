@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JESUS IS FAT PHOBIC — Vinyl Bumper Sticker | Praise &amp; Provoke</title>
+<meta name="description" content="The bumper sticker that says what everyone's thinking at church potluck. Thick weatherproof vinyl, removable adhesive, ships in 4 days. Pay with USDC, BTC, or Lightning.">
+<style>
+  :root{
+    --bg:#0d0d0d; --panel:#161616; --ink:#f2f2f2; --muted:#9a9a9a;
+    --yellow:#ffcc00; --black:#000; --line:#2a2a2a; --green:#22c55e; --red:#ef4444;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:"Segoe UI",-apple-system,Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:rgba(13,13,13,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:15px}
+  .brand .y{color:var(--yellow)}
+  .nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:22px}
+  .nav a:hover{color:var(--ink)}
+  /* hero */
+  .hero{padding:64px 0 30px;text-align:center}
+  .tag{display:inline-block;border:1px solid var(--line);color:var(--yellow);font-size:12px;letter-spacing:.2em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:22px}
+  h1{font-size:clamp(34px,6vw,64px);line-height:1.02;letter-spacing:-.01em;text-transform:uppercase;font-weight:900}
+  h1 .y{color:var(--yellow)}
+  .sub{margin-top:18px;color:var(--muted);font-size:18px;max-width:640px;margin-left:auto;margin-right:auto}
+  .price-row{margin-top:26px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;align-items:center}
+  .price{font-size:34px;font-weight:800}
+  .price small{font-size:15px;color:var(--muted);font-weight:400}
+  .badge{font-size:13px;border:1px solid var(--line);padding:6px 12px;border-radius:8px;color:var(--muted)}
+  /* product */
+  .product{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;margin:44px 0;align-items:start}
+  @media(max-width:820px){.product{grid-template-columns:1fr}}
+  .sticker-card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px;position:sticky;top:90px}
+  @media(max-width:820px){.sticker-card{position:static}}
+  .sticker-card img{width:100%;border-radius:10px;display:block}
+  .specs{list-style:none;margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;font-size:14px;color:var(--muted)}
+  .specs li::before{content:"✓ ";color:var(--green)}
+  .buy{padding:0 4px}
+  .buy h2{font-size:22px;margin-bottom:6px}
+  .buy .p{color:var(--muted);font-size:14px;margin-bottom:18px}
+  /* qty */
+  .qty{display:flex;gap:10px;margin:18px 0}
+  .qty button{flex:1;background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:14px 8px;border-radius:12px;cursor:pointer;font-size:14px;text-align:center;transition:border-color .15s}
+  .qty button b{display:block;font-size:18px}
+  .qty button small{color:var(--muted)}
+  .qty button.sel{border-color:var(--yellow);background:#1e1a00}
+  .qty button.sel b{color:var(--yellow)}
+  /* payment tabs */
+  .pay-tabs{display:flex;gap:8px;margin-top:6px}
+  .pay-tabs button{flex:1;background:var(--panel);border:1px solid var(--line);color:var(--muted);padding:10px;border-radius:10px;cursor:pointer;font-size:13px;font-weight:700}
+  .pay-tabs button.sel{border-color:var(--yellow);color:var(--yellow);background:#1e1a00}
+  .pay-panel{display:none;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;margin-top:10px}
+  .pay-panel.on{display:block}
+  .pay-panel .net{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow)}
+  .pay-panel .amt{font-size:26px;font-weight:800;margin:6px 0 2px}
+  .pay-panel .to{font-size:13px;color:var(--muted);word-break:break-all;user-select:all}
+  .pay-panel img.qr{width:190px;height:190px;border-radius:10px;background:#fff;padding:8px;margin:14px auto;display:block}
+  .copybtn{background:transparent;border:1px solid var(--line);color:var(--ink);padding:6px 14px;border-radius:8px;cursor:pointer;font-size:13px;margin-top:8px}
+  .copybtn:hover{border-color:var(--yellow);color:var(--yellow)}
+  .note{font-size:12.5px;color:var(--muted);margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
+  /* order form */
+  .form{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;margin-top:22px}
+  .form h3{font-size:16px;margin-bottom:12px}
+  .form label{display:block;font-size:12.5px;color:var(--muted);margin:12px 0 5px}
+  .form input,.form textarea{width:100%;background:#0d0d0d;border:1px solid var(--line);color:var(--ink);padding:11px 13px;border-radius:9px;font-size:14px;font-family:inherit}
+  .form input:focus,.form textarea:focus{outline:none;border-color:var(--yellow)}
+  .form .submit{width:100%;margin-top:18px;background:var(--yellow);color:var(--black);border:none;padding:15px;border-radius:11px;font-size:16px;font-weight:800;cursor:pointer}
+  .form .submit:hover{filter:brightness(1.08)}
+  .form small{display:block;color:var(--muted);font-size:12px;margin-top:10px}
+  /* how it works */
+  .how{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0}
+  @media(max-width:820px){.how{grid-template-columns:1fr}}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .step .n{font-size:12px;color:var(--yellow);font-weight:800;letter-spacing:.18em}
+  .step h3{font-size:17px;margin:8px 0 6px}
+  .step p{font-size:13.5px;color:var(--muted)}
+  /* faq */
+  details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:700;font-size:15px}
+  details p{color:var(--muted);font-size:14px;margin-top:10px}
+  h2.sec{font-size:26px;margin:50px 0 6px;text-transform:uppercase;letter-spacing:.02em}
+  .secsub{color:var(--muted);font-size:15px;margin-bottom:20px}
+  footer{border-top:1px solid var(--line);margin-top:70px;padding:28px 0;text-align:center;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand">Praise<span class="y">&amp;</span>Provoke</div>
+  <nav><a href="#buy">Buy</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav>
+</div></header>
+
+<section class="wrap hero">
+  <span class="tag">Vinyl • Weatherproof • Ships in 4 days</span>
+  <h1>Jesus is<br><span class="y">Fat Phobic</span></h1>
+  <p class="sub">The bumper sticker that says what everyone's thinking at the church potluck. Thick matte vinyl, removable adhesive, built for highway wind and judgmental looks.</p>
+  <div class="price-row">
+    <div class="price">$49.99 <small>/ 10-pack</small></div>
+    <span class="badge">≈ $5 each</span>
+    <span class="badge">Free US shipping</span>
+    <span class="badge">Crypto accepted</span>
+  </div>
+</section>
+
+<section class="wrap product">
+  <div class="sticker-card">
+    <img src="{{PREVIEW_B64}}" alt="JESUS IS FAT PHOBIC bumper sticker preview — black Christian fish on yellow vinyl">
+    <ul class="specs">
+      <li>7.5″ × 3.75″</li>
+      <li>Matte vinyl</li>
+      <li>Removable adhesive</li>
+      <li>Water &amp; UV proof</li>
+      <li>Die-cut fish shape</li>
+      <li>Made in USA print shop</li>
+    </ul>
+  </div>
+
+  <div class="buy" id="buy">
+    <h2>Get yours</h2>
+    <p class="p">Pick a pack, pay in crypto, we print &amp; ship to your door. Real print shop, real vinyl, real delivery.</p>
+
+    <div class="qty" id="qty">
+      <button data-qty="1" class="sel" data-price="49.99" data-usdc="49990000"><b>1 pack</b><small>10 stickers · $49.99</small></button>
+      <button data-qty="2" data-price="89.99" data-usdc="89990000"><b>2 packs</b><small>20 stickers · $89.99</small></button>
+      <button data-qty="3" data-price="124.99" data-usdc="124990000"><b>3 packs</b><small>30 stickers · $124.99</small></button>
+    </div>
+
+    <div class="pay-tabs">
+      <button class="sel" data-tab="usdc">USDC (Base)</button>
+      <button data-tab="btc">Bitcoin</button>
+      <button data-tab="ln">Lightning</button>
+    </div>
+
+    <div class="pay-panel on" id="panel-usdc">
+      <div class="net">USDC on Base network</div>
+      <div class="amt" id="amt-usdc">49.99 USDC</div>
+      <div class="to" id="addr-usdc">0x05ff3061352c6C30855f1b77F640e9412c56eA1d</div>
+      <img class="qr" id="qr-usdc" src="{{QR_USDC}}" alt="USDC payment QR">
+      <button class="copybtn" data-copy="addr-usdc">Copy address</button>
+      <p class="note">Send exact amount on <b>Base</b> (not Ethereum mainnet). 1 USDC = $1.00 — no conversion math needed. We verify on-chain before printing.</p>
+    </div>
+
+    <div class="pay-panel" id="panel-btc">
+      <div class="net">Bitcoin (on-chain)</div>
+      <div class="amt">≈ $49.99 in BTC</div>
+      <div class="to" id="addr-btc">bc1qa7txyzk3yqxgln09uzujqcy47eua4f8afsdhec</div>
+      <img class="qr" id="qr-btc" src="{{QR_BTC}}" alt="Bitcoin payment QR">
+      <button class="copybtn" data-copy="addr-btc">Copy address</button>
+      <p class="note">Send roughly the USD total — we confirm the fiat value at receive time. Higher priority fee = faster confirmation.</p>
+    </div>
+
+    <div class="pay-panel" id="panel-ln">
+      <div class="net">Lightning (BTC)</div>
+      <div class="amt">≈ $49.99 in sats</div>
+      <div class="to" id="addr-ln">metatronscribe@coinos.io</div>
+      <p class="note">Send to this Lightning address from any wallet that supports LN addresses (Zeus, Wallet of Satoshi, Alby…). Instant &amp; cheap. Quote ≈ $49.99 at send time.</p>
+    </div>
+
+    <form class="form" id="orderform" action="mailto:powers.chr@gmail.com" method="post" enctype="text/plain">
+      <h3>Shipping details</h3>
+      <label>Full name</label><input type="text" name="name" required>
+      <label>Email</label><input type="email" name="email" required placeholder="you@example.com">
+      <label>Shipping address</label><textarea name="address" rows="3" required placeholder="Street, city, state, ZIP / country"></textarea>
+      <label>Packs (1 = 10 stickers)</label><input type="number" name="packs" id="f-packs" value="1" min="1" max="20" required>
+      <label>Payment method</label><input type="text" name="payment" id="f-payment" value="USDC (Base)" readonly>
+      <label>Amount sent</label><input type="text" name="amount" id="f-amount" placeholder="49.99 USDC" required>
+      <label>Transaction hash / ID (so we can verify on-chain)</label><input type="text" name="txhash" placeholder="0x… or txid">
+      <button class="submit" type="submit">Submit order → email confirms</button>
+      <small>Submitting opens your email app with the order prefilled. We verify the payment on-chain, print, and ship. No crypto → no order.</small>
+    </form>
+  </div>
+</section>
+
+<section class="wrap" id="how">
+  <h2 class="sec">How it works</h2>
+  <p class="secsub">Fully crypto-native. No card, no bank, no account.</p>
+  <div class="how">
+    <div class="step"><div class="n">STEP 1</div><h3>Pick a pack</h3><p>1 pack = 10 stickers, $49.99. Bigger packs drop the per-sticker price.</p></div>
+    <div class="step"><div class="n">STEP 2</div><h3>Pay in crypto</h3><p>Send USDC on Base, Bitcoin, or Lightning to the address shown. Exact USDC amount is simplest — 1:1 with dollars.</p></div>
+    <div class="step"><div class="n">STEP 3</div><h3>We print &amp; ship</h3><p>We verify the payment on-chain, submit your order to our print partner, and it ships to your door — usually within 4 days + transit.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="faq">
+  <h2 class="sec">FAQ</h2>
+  <p class="secsub">Real answers, no fine print.</p>
+  <details open><summary>Is this a real sticker from a real printer?</summary><p>Yes. Every order is printed on thick matte vinyl by our production partner (a real industrial print shop) with free 4-day turnaround and online proof approval. No print-on-demand dropship roulette.</p></details>
+  <details><summary>Why crypto only?</summary><p>Because it's 2026 and paying for a joke shouldn't require a bank. Crypto settles instantly with no card fees and no chargeback theater.</p></details>
+  <details><summary>What network for USDC?</summary><p>Base (chain ID 8453). Send to the address shown — same address works for all three pack sizes, just send the right amount. Sending on the wrong network may lose funds; double-check before you confirm.</p></details>
+  <details><summary>How do I know you got the payment?</summary><p>We check the chain ourselves. Include your transaction hash in the order form and we'll match it. Orders are confirmed within 24h of payment confirmation.</p></details>
+  <details><summary>Refunds?</summary><p>Cancel any time before we submit the print order and we return the crypto. After printing, it's yours — vinyl is permanent like your opinions.</p></details>
+  <details><summary>Shipping?</summary><p>Free within the US. International at cost — we'll quote you before printing.</p></details>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Praise &amp; Provoke Supply Co. — bumper theology for the unconvinced.<br>Payments verified on-chain. Jesus still loves you (probably).</div>
+</footer>
+
+<script>
+const fmt = n => n.toFixed(2);
+const state = {qty:1, price:49.99, usdc:49990000, tab:'usdc'};
+document.querySelectorAll('#qty button').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('#qty button').forEach(x=>x.classList.remove('sel'));
+    b.classList.add('sel');
+    state.qty=+b.dataset.qty; state.price=+b.dataset.price; state.usdc=+b.dataset.usdc;
+    sync();
+  };
+});
+document.querySelectorAll('.pay-tabs button').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('.pay-tabs button').forEach(x=>x.classList.remove('sel'));
+    b.classList.add('sel');
+    state.tab=b.dataset.tab;
+    document.querySelectorAll('.pay-panel').forEach(p=>p.classList.remove('on'));
+    document.getElementById('panel-'+state.tab).classList.add('on');
+    sync();
+  };
+});
+function sync(){
+  const usdcAmt = (state.usdc/1e6);
+  document.getElementById('amt-usdc').textContent = usdcAmt.toFixed(2)+' USDC';
+  document.getElementById('f-packs').value = state.qty;
+  document.getElementById('f-payment').value = ({usdc:'USDC (Base)',btc:'Bitcoin',ln:'Lightning'})[state.tab];
+  document.getElementById('f-amount').placeholder = state.tab==='usdc' ? usdcAmt.toFixed(2)+' USDC' : '≈ $'+usdcAmt.toFixed(2)+' equivalent';
+}
+document.querySelectorAll('.copybtn').forEach(b=>{
+  b.onclick=()=>{
+    const txt=document.getElementById(b.dataset.copy).textContent.trim();
+    navigator.clipboard.writeText(txt).then(()=>{b.textContent='Copied ✓'; setTimeout(()=>b.textContent='Copy address',1600);});
+  };
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2250" height="1125" viewBox="0 0 2250 1125">
+  <rect width="2250" height="1125" fill="#FFCC00"/>
+  <rect x="46" y="46" width="2158" height="1033" fill="none" stroke="#000" stroke-width="14"/>
+  <ellipse cx="1019" cy="562" rx="851" ry="322" fill="none" stroke="#000" stroke-width="16"/>
+  <polygon points="1832,562 2108,398 2108,726" fill="none" stroke="#000" stroke-width="16" stroke-linejoin="round"/>
+  <circle cx="560" cy="470" r="40" fill="#000"/>
+  <text x="1125" y="560" font-family="Impact, Arial Black, sans-serif" font-size="172" font-weight="700" fill="#000" text-anchor="middle">JESUS IS</text>
+  <text x="1125" y="748" font-family="Impact, Arial Black, sans-serif" font-size="172" font-weight="700" fill="#000" text-anchor="middle">FAT PHOBIC</text>
+</svg>
