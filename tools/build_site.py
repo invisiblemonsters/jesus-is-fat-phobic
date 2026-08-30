@@ -5,6 +5,7 @@ import base64, io, os, qrcode
 ROOT = "C:/Users/power/projects/jesus-fat-phobic"
 DESIGN = f"{ROOT}/design"
 SITE = f"{ROOT}/site"
+DOCS = f"{ROOT}/docs"
 
 BTC_ADDR = "bc1qa7txyzk3yqxgln09uzujqcy47eua4f8afsdhec"
 USDC_ADDR = "0x05ff3061352c6C30855f1b77F640e9412c56eA1d"
@@ -29,6 +30,7 @@ html = (tpl
         .replace("{{QR_USDC}}", qr_usdc)
         .replace("{{QR_BTC}}", qr_btc))
 
-out = f"{SITE}/index.html"
+out = f"{DOCS}/index.html"
+os.makedirs(DOCS, exist_ok=True)
 open(out, "w", encoding="utf-8").write(html)
 print("built:", out, os.path.getsize(out), "bytes")
